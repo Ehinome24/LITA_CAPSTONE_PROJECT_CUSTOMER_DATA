@@ -13,7 +13,7 @@ This is my capstone project on Customer Data while I was learning Data Analysis 
 
 [Data Analysis](#data-analysis)
 
-[Data Visualisation](#data-visualization)
+[Data Visualization](#data-visualization)
 
 
 ### Project Overview
@@ -57,14 +57,13 @@ as canceled_subscriptions from [dbo].[Customer Data]
 
 =INDEX(Table3[SubscriptionType],MODE(MATCH(Table3[SubscriptionType],Table3[SubscriptionType],0)))
 ```
-### Data Visualisation
+### Data Visualization
 ---
+![Customer Data Pivot](https://github.com/user-attachments/assets/b0d37b6a-1087-4048-86c3-233e19ee3aee)
 
-![Customer Data Pivot](https://github.com/user-attachments/assets/5259d124-0180-4148-be39-e6e2e4560967)
+![customer data sql](https://github.com/user-attachments/assets/f8b3b538-022a-40ed-bb1c-4042b13af551)
 
-![customer data sql](https://github.com/user-attachments/assets/ae38cae5-79e3-4785-90e5-fd8a27cf9017)
+![top3 region by sub cancellations](https://github.com/user-attachments/assets/15f4345d-736d-48f5-8a1d-2e06b760256f)
 
-![top3 region by sub cancellations](https://github.com/user-attachments/assets/37560edb-f1f5-4ab1-82f1-40f9d49126eb)
-
-
+![active and canceled sub](https://github.com/user-attachments/assets/ded65e83-6672-42e8-90d9-322f77f91a18)
 
