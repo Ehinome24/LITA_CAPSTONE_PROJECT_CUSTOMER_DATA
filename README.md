@@ -1,7 +1,7 @@
 # LITA_CAPSTONE_PROJECT_CUSTOMER_DATA
 This is my capstone project on Customer Data while I was learning Data Analysis with the Incubator Hub 
 
-### Project Title: Customer Data Analysis 
+### Project Title: Customer Segmentation for a Subscription Service
 
 [Project Overview](#project-overview)
 
@@ -18,6 +18,7 @@ This is my capstone project on Customer Data while I was learning Data Analysis 
 
 ### Project Overview
 ---
+The primary aim of this project is to analyze customer data collected over a period of a year and 8 months for a subscription service in order to identify trends and gain insight into customer behaviour and subscription patterns(cancellations and renewals).
 
 ### Tools Used
 ---
@@ -37,10 +38,33 @@ In the initial phase of data cleaning and preparations, we performed the followi
 ### Exploratory Data Analysis
 ---
 This step involved the exploration of our dataset to answer some questions such as;
-- 
-- 
-- 
+- Most Popular Subscription Type
+- Overall Subscription Pattern
+- Subscription and Cancellations
 
 ### Data Analysis
 ---
-These were some basic lines of code or queries used during the analysis;
+These are some queries/lines of codes and functions used during the analysisof the data;
+```SQL
+select top 1 subscriptionType,count(customerid) as total_customers
+from [dbo].[Customer Data] group by subscriptiontype
+order by total_customers desc 
+
+select sum(case when canceled = 0 then 1 else 0 end) 
+as active_subscriptions,
+sum(case when canceled = 1 then 1 else 0 end) 
+as canceled_subscriptions from [dbo].[Customer Data]
+
+=INDEX(Table3[SubscriptionType],MODE(MATCH(Table3[SubscriptionType],Table3[SubscriptionType],0)))
+```
+### Data Visualisation
+---
+
+![Customer Data Pivot](https://github.com/user-attachments/assets/5259d124-0180-4148-be39-e6e2e4560967)
+
+![customer data sql](https://github.com/user-attachments/assets/ae38cae5-79e3-4785-90e5-fd8a27cf9017)
+
+![top3 region by sub cancellations](https://github.com/user-attachments/assets/37560edb-f1f5-4ab1-82f1-40f9d49126eb)
+
+
+
