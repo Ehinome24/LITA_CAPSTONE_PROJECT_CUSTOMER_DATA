@@ -15,6 +15,9 @@ This is my capstone project on Customer Data while I was learning Data Analysis 
 
 [Data Visualization](#data-visualization)
 
+[Results](#results)
+
+[Recommendation](#recommendation)
 
 ### Project Overview
 ---
@@ -59,11 +62,39 @@ as canceled_subscriptions from [dbo].[Customer Data]
 ```
 ### Data Visualization
 ---
-![Customer Data Pivot](https://github.com/user-attachments/assets/b0d37b6a-1087-4048-86c3-233e19ee3aee)
+![Customer Data Pivot](https://github.com/user-attachments/assets/4c82ae54-4c8d-43b3-ac97-bf7cd3037a18) 
 
 ![customer data sql](https://github.com/user-attachments/assets/f8b3b538-022a-40ed-bb1c-4042b13af551)
 
 ![top3 region by sub cancellations](https://github.com/user-attachments/assets/15f4345d-736d-48f5-8a1d-2e06b760256f)
 
 ![active and canceled sub](https://github.com/user-attachments/assets/ded65e83-6672-42e8-90d9-322f77f91a18)
+
+![Customer Data Visual](https://github.com/user-attachments/assets/3a2fe616-c714-4ac9-830e-8fe69b5affd6)
+
+### Results
+---
+Based on the analysis, the following insights were drawn:
+1. Active subscriptions were 18,612 with a total of 3,437 subscriptions more than that of the canceled subscriptions(15.175)
+2. The eastern region had the highest amount of active subscriptions of 8,488 and no canceled subscrriptions
+3. The North had the  highest amount of canceled subscriptions (5,067) a value which when compared to that of the other regions was statistically non-significant 
+5. Basic subscription is the only type of subscription used by those in the East and North, Premium subscription type in the South and standard subscription type in the west.
+6. The East generated the highest revenue ($16,958,763)
+7. Basic subscription type generated the highest revenue with a value of $33,776,735 occupying almost half of the total revenue.
+
+### Recommendation
+---
+- Other subscription types should be introduced to other regions to reach more customers and generate more revenue
+- Emphasis should be placed on the eastern region 
+
+
+
+
+
+
+
+
+
+
+
 
