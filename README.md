@@ -62,7 +62,7 @@ as canceled_subscriptions from [dbo].[Customer Data]
 ```
 ### Data Visualization
 ---
-![Customer Data Pivot](https://github.com/user-attachments/assets/4c82ae54-4c8d-43b3-ac97-bf7cd3037a18) 
+![Customer Data Pivot](https://github.com/user-attachments/assets/ee9e7f53-94b1-415b-baa9-b40a012e3e15)
 
 ![customer data sql](https://github.com/user-attachments/assets/f8b3b538-022a-40ed-bb1c-4042b13af551)
 
@@ -78,9 +78,9 @@ Based on the analysis, the following insights were drawn:
 1. Active subscriptions were 18,612 with a total of 3,437 subscriptions more than that of the canceled subscriptions(15.175)
 2. The eastern region had the highest amount of active subscriptions of 8,488 and no canceled subscrriptions
 3. The North had the  highest amount of canceled subscriptions (5,067) a value which when compared to that of the other regions was statistically non-significant 
-5. Basic subscription is the only type of subscription used by those in the East and North, Premium subscription type in the South and standard subscription type in the west.
-6. The East generated the highest revenue ($16,958,763)
-7. Basic subscription type generated the highest revenue with a value of $33,776,735 occupying almost half of the total revenue.
+4. Basic subscription is the only type of subscription used by those in the East and North, Premium subscription type in the South and standard subscription type in the west.
+5. The East generated the highest revenue ($16,958,763)
+6. Basic subscription type generated the highest revenue with a value of $33,776,735 occupying almost half of the total revenue.
 
 ### Recommendation
 ---
